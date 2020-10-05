@@ -1,6 +1,10 @@
-// Assignment code here
-
-
+/*Objective: To create a password generator using inputs from user and display on the page
+  Author: AC
+  Date Created: 10/04/2020
+  Version: 1.0
+  Module: 3
+  Project: Bootcamp
+*/  
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -17,7 +21,7 @@ function writePassword()
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
+// Assignment code here
 function promptForNumber()
 {
       var len = parseInt(prompt("Please choose a length in number of at least 8 characters and no more than 128 characters"));
